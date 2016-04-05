@@ -7,5 +7,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <declare-styleable name="ProgressButton">
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_background_color" format="color"/>
+        <attr name="corner_radius" format="dimension"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:text"/>
+    </declare-styleable>
 
 </resources>
