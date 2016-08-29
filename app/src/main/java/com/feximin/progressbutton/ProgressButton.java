@@ -21,7 +21,7 @@ public class ProgressButton extends View {
     private int mProgressBackgroundColor = 0xFF99F999;       //有进度的时候，非进度的部分
     private int mRoundCorner = 0;
     private int mProgress;
-    private String mText = "安装";
+    private String mText = "";
     private int mTextColor = 0xFFFFFFFF;
     private float mTextSize;      //in sp
     private LinearGradient mBackgroundGradient;
